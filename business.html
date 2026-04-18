@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vahan Vaidya</title>
+    <link rel="stylesheet" href="business.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h1 id="cname">Car Service Center</h1>
+
+            <nav class="nav-bar">
+
+                <a href="index.html">Home</a>
+
+                <div class="dropdown">
+                    <a href="#" id="resourceBtn">Resource</a>
+
+                    <div class="dropdown-menu" id="resourceMenu">
+                        <a href="#">Blogs</a>
+                        <a href="#">Guest Post</a>
+                        <a href="#">Video & Tips</a>
+                        <a href="#">Feedback & Reviews</a>
+                        <a href="#">News & Advisory</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="#" id="serviceBtn">Services</a>
+
+                    <div class="dropdown-menu" id="serviceMenu">
+                        <a href="business.html">Business</a>
+                        <a href="consumer.html">Consumer</a>
+                    </div>
+                </div>
+
+                <a href="login.html">Login</a>
+                <a href="#about-car">About Us</a>
+
+            </nav>
+        </header>
+
+
+        <!-- image section -->
+        <div>
+            <img id="slider" src="img/d1.jpeg">
+        </div>
+
+        <script>
+            const imgs = ['d3.jpg', 'd2.jpg', 'd1.jpg', 'd7.jpg', 'd5.jpg', 'd6.jpg', 'd4.jpg'];
+            let i = 0;
+
+            setInterval(() => {
+                document.getElementById("slider").src = `img/${imgs[i]}`;
+                if (++i === imgs.length) {
+                    i = 0;
+                }
+            }, 2000);
+        </script>
+
+        <!-- car service -->
+        <div class="car-ser">
+            <h1 align="center">Top Cars Service In Our Center</h1> <br>
+            <div class="service">
+                <img src="img/s1.jpg" id="img-ser">
+                <h5>Car AC Repair and Service</h5>
+                <p>Trusted & Reliable Service <br> 10k+ services</p>
+            </div>
+
+            <div class="service">
+                <img src="img/s2.jpg" id="img-ser">
+                <h5>Car Washing</h5>
+                <p>Get Service Anytime Anywhere <br> 15% off</p>
+            </div>
+
+            <div class="service">
+                <img src="img/s3.jpg" id="img-ser">
+                <h5>Car Denting & Painting</h5>
+                <p>Feel Like New One <br> Customise Package</p>
+            </div>
+
+            <div class="service">
+                <img src="img/s4.jpg" id="img-ser">
+                <h5>Car Tyre & Wheel Repair</h5>
+                <p>Quick And Instant Service <br> 15% off</p>
+            </div>
+
+            <div class="service">
+                <img src="img/s5.jpg" id="img-ser">
+                <h5>Car Periodic Service</h5>
+                <p>Car Maintenance By Experts <br>Flat 499 off</p>
+            </div>
+
+        </div> <br><br>
+
+        <div>
+            <h2 id="main-ser">Our Services</h2>
+            <h3 id="heading-ser">One Stop Platform For All Car Related Services</h3>
+            <p id="about-ser">we are your ultimate destination for comprehensive car services. with our wide
+                network of trusted providers, we offer a range of services tailored to meet your 
+                car's every need. From car inspection and repair to insurence, finacence and road
+                side assistance, we have you covered. Our platform ensure convenience enabling you 
+                to effortlessly browser, compare, and choose the services that suit you best. with 
+                a focus on reliability and customer satisfaction, we have handpick out service
+                partner to top notch quality and expertise. Trust Car Service Center for your
+                all car services need and experience a seamless and hassle-free journey.
+            </p>
+        </div>
+
+        <!-- footer section -->
+        <div class="footer">
+            <div class="footer1">
+                <h3 id="footer-head">Top Car Brand</h3>
+                <h3 id="footer-head">Top Cities</h3>
+                <h3 id="footer-head">Our Car Service Center</h3>
+                <hr>
+            </div>
+
+            <div class="footer2">
+                <h2 style="padding: 10px;">Car Service Center</h2>
+                <img src="img/g1.png" id="footer-img">
+                <img src="img/g2.png" id="footer-img"> <br><br>
+                <img src="img/i1.png" id="footer-social">
+                <img src="img/i2.png" id="footer-social">
+                <img src="img/i3.png" id="footer-social">
+                <img src="img/i4.png" id="footer-social">
+                <img src="img/i5.png" id="footer-social">
+            </div>
+
+            <div class="footer3">
+                <h2>Services</h2>
+
+                <div class="service-item">
+                    <span>🚗</span> Car Service & Repair
+                </div>
+
+                <div class="service-item">
+                    <span>🔍</span> Car Inspection Service
+                </div>
+
+                <div class="service-item">
+                    <span>🛡️</span> Used Car Warranty
+                </div>
+
+                <div class="service-item">
+                    <span>📋</span> Car Service History
+                </div>
+
+                <div class="service-item">
+                    <span>🆘</span> Road Side Assistance
+                </div>
+
+                <div class="service-item">
+                    <span>⚙️</span> Car AMC
+                </div>
+
+                <div class="service-item">
+                    <span>🚘</span> Driving School
+                </div>
+
+                <div class="service-item">
+                    <span>📄</span> Check & RTO
+                </div>
+
+                <div class="service-item">
+                    <span>💳</span> Motor Insurance
+                </div>
+
+                <div class="service-item">
+                    <span>🏷️</span> Fastag
+                </div>
+            </div>
+
+            <div class="footer4">
+                <img src="img/i3.png" id="footer4-img">
+                <h3>Talk To Our Support <br> +91-xxxxxxxxxx</h3>
+            </div>
+            <hr style="margin-top: 70px;">
+
+            <div class="footer5">
+                <h4>©Copyright Car Service Center. All right reserved</h4>
+                <p id="footer5-term">Privacy Policy / Terms & Conditions / Shipping & Delivery / Cancellation & Refund
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="vahan.js"></script>
+</body>
+
+</html>
